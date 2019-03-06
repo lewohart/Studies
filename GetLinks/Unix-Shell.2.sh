@@ -1,0 +1,1 @@
+lynx -dump -listonly http://www.stroustrup.com/C++.html | sed -n 's/^[ 0-9.]\+//p'

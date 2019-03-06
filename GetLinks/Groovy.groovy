@@ -1,0 +1,1 @@
+"http://www.stroustrup.com/C++.html".toURL().text.findAll(/https?:\/\/[^"]+/).each{println it}

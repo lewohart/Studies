@@ -1,0 +1,1 @@
+lynx -dump http://www.stroustrup.com/C++.html | grep -o '\w*://.*'

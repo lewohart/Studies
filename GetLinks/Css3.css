@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*:not(a) {
+  font: 0/0 monospace;
+  color: transparent;
+  background: transparent !important;
+}
+a {
+  content: "";
+}
+a[href*="://"]::after {
+  content: attr(href);
+  float: left;
+  clear: left;
+  display: block;
+  font: 12px monospace;
+  color: black;
+}

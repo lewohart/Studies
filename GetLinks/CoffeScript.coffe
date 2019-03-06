@@ -1,0 +1,4 @@
+require('http').get 'http://www.stroustrup.com/C++.html', (r) ->
+    dt = '';
+    r.on 'data', (d) -> dt += d
+    r.on 'end' , (d) -> console.log dt.match /"((http)s?:\/\/.*?)"/g

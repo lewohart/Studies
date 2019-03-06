@@ -1,0 +1,1 @@
+Import["http://www.stroustrup.com/C++.html", "Hyperlinks"]

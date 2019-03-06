@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+use HTML::LinkExtor;
+sub callback {
+   my ($tag, %links) = @_;
+   print map { "$_\n" } values %links
+}
+$p = HTML::LinkExtor->new(\&callback, "http://www.stroustrup.com/C++.html");

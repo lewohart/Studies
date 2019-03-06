@@ -1,0 +1,1 @@
+[string[]][regex]::Matches((iwr "http://www.stroustrup.com/C++.html"), '\w+://[^"]+')

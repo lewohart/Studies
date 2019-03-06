@@ -1,0 +1,1 @@
+(iwr "http://www.stroustrup.com/C++.html").Links | %{ $_.href }
